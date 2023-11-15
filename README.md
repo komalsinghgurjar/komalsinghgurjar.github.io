@@ -1,1 +1,1 @@
-# gurjartech
+# gurjartech home page
