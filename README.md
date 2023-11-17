@@ -26,7 +26,7 @@
 - Localized UI language
 - Pinned Posts on Home Page
 - Hierarchical Categories
-- Trending Tags
+-h Trending Tags
 - Table of Contents
 - Last Modified Date
 - Syntax Highlighting
