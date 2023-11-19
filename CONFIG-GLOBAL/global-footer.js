@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     const dataLocal = `
       <footer class="global-footer">
         <nav class="footer-nav">
-          <a href="RES/privacy-policy.html" class="footer-link">Privacy</a>
-          <a href="RES/contact-us.html" class="footer-link">Contact</a>
-          <a href="RES/terms-services.html" class="footer-link">Terms</a>
+          <a href="https://gurjartech.in/RES/privacy-policy.html" class="footer-link">Privacy</a>
+          <a href="https://gurjartech.in/RES/contact-us.html" class="footer-link">Contact</a>
+          <a href="https://gurjartech.in/RES/terms-services.html" class="footer-link">Terms</a>
           <!-- Add more links as needed -->
         </nav>
       </footer>
