@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+      <meta name="description" content="Google pixel 8 phone specifications and detailed analysis. Very in depth specs and from all aspects in accurate manner." />
+      <meta name="keywords" content="pixel, google, phone , specifications, pixel 8, pixel 8 specifications, all pixel 8 specifications, pixel 8 details, pixel 8, pixel 8 spec, pixel 8 specs, Google pixel 8 spec, Google pixel 8 specs, Google Pixel phone specifications, Google pixel 8 details, pixel phone 8, Google, pixel 8, Google pixel 8 review, google pixel 8, pixel 8 komal singh, Google pixel 8" />
+      <meta name="author" content="Komal Singh" />
+      <link rel="canonical" href="https://gurjartech.in/pixel/google-pixel-8-specs.html">
+      <link rel="manifest" href="https://gurjartech.in/manifest.json" />
+      <meta name="HandheldFriendly" content="True">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta http-equiv="cleartype" content="on">
+          
+          <meta name="last-modified" content="2023-11-22">
+          <!-- Include Global JavaScript, Header, Footer, and CSS Files -->
+  <script src="https://gurjartech.in/CONFIG-GLOBAL/global.js"></script>
+  <link rel="stylesheet" href="https://gurjartech.in/CONFIG-GLOBAL/global.css">
+
+          
+      <title>Google Pixel 8 - All specifications</title>
+      <!-- Google Fonts - Lora for better reading experience -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" />
+      <!-- Additional meta tags, stylesheets, or scripts can be included here -->
+      <style>
+         
+
+          p {
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reddiv, .greendiv{
+background-color: #f0f0f0;
+         padding: 5px;
+         margin: 5px;
+         border-radius: 5px;
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.reddiv > p{
+    zoom: 0.8;
+    color: #050F0F;
+background-color: #faf0f0;
+         padding: 5px;
+         margin: 5px;
+         border-radius: 5px;
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.greendiv > p{
+    zoom: 0.8;
+    color: #0F050F;
+    background-color: #f0faf0;
+         padding: 5px;
+         margin: 5px;
+         border-radius: 5px;
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+         body {
+             background-color: #ffffff;
+         font-family: "Lora", serif;
+         line-height: 1.6;
+         color: #000;
+         zoom: 0.9;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         }
+         
+         
+         .section-container {
+         background-color: #f0f0f0;
+         padding: 20px;
+         margin: 20px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+         details summary {
+             
+             padding: 3px;
+         margin: 3px;
+         cursor: pointer;
+         background-color: #f0f0f0;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         }
+         
+         details > * {
+             zoom: 0.8;
+         background-color: #f9f9ff;
+         border: 1px solid #777;
+         border-radius: 5px;
+         }
+         details summary {
+             zoom: 1;
+             }
+      </style>
+      <!--Style for status-->
+      <style>
+         .dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.added{
+    margin-left: 5px;
+  color: green;
+  font-weight: 800;
+}
+
+a {
+  color: gray;
+  
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
+a:visited {
+  color: #4a90e2;
+}
+
+      </style>
+   </head>
+   <body>
+      <h1>Google's Pixel 8 All Specifications</h1>
+      
+      <hr/>
+      <!--PROCESSOR & CHIPSER SPECS-->
+      <h2>Processor & Chipset:</h2>
+      <ul>
+         <li><strong>Google's </strong><abbr title="System on Chip">SoC</abbr> <strong><abbr title="Central Processing Unit">CPU</abbr></strong> chipset <strong>TensorG3 (zuma)</strong> (mainly AI-focused)<span class="dot red"></span></li>
+         <li><strong>CPU</strong> is fabricated <strong>4<abbr title="Nanometer">nm</abbr></strong> (transistor/gate size) on <strong>Samsung's</strong> 4<abbr title="Low Power Plus">LPP</abbr>.<span class="dot red"></span></li>
+         <li><strong>Nona-core (9=1+4+4) CPU </strong>(Cores: <strong>1x3.0GHz</strong> <abbr title="Cortex-X3">cortex-X3</abbr> and <strong>4x2.45GHz</strong> <abbr title="Cortex-A715">cortex-A715</abbr> and <strong>4x2.15GHz</strong> <abbr title="Cortex-A510">cortex-A510</abbr>)</li>
+         <li>Security coprocessor <strong>TitanM2</strong><span class="added">+</span></li>
+         <li>Max<strong> clock speed</strong> <strong>3000 MHz</strong></li>
+         <li><strong>Immortalis-G715s (MaliG715 MP7) MC10</strong> integrated <strong><abbr title="Graphics Processing Unit">GPU</abbr></strong></li>
+         <li><strong>GPU shading-units 1344 </strong>(individual processing units dedicated to executing shader programs)</li>
+         <li><strong>GPU</strong> clock speed <strong>890MHz</strong> </li>
+         <li><strong>GPU </strong>flops <strong>~2416.5 GigaFLOPS</strong></li>
+         <li>Neural processor <strong>Google</strong> custom <strong><abbr title="Tensor Processing Unit">TPU</abbr></strong><span class="added">+</span></li>
+         <li>Chipset can <strong>encode/decode 8K</strong> videos.<span class="dot green"></span></li>
+      </ul>
+      <hr/>
+      <h2>Memory & Storage (Variant Specific):</h2>
+      <h3>Memory (RAM):</h3>
+      <ul>
+         <li><strong>8<abbr title="Gigabytes">GB</abbr></strong> LPDDR5X <strong><abbr title="Random Access Memory">RAM</abbr> </strong>in all variants.<span class="dot red"></span></li>
+         <li>Memory (<strong>RAM</strong>) clock: <strong>4200MHz</strong></li>
+         <li>Memory (<strong>RAM</strong>) channels: <strong>4</strong></li>
+      </ul>
+      <h3>Storage (Internal Storage) & SD card:</h3>
+      <ul>
+         <li><strong><abbr title="Universal Flash Storage">UFS</abbr> v3.1</strong> storage type.<span class="dot red"></span></li>
+         <li><strong>128GB</strong> (first variant).<span class="dot red"></span></li>
+         <li><strong>256GB</strong> (second variant) (More than <strong>$100 expensive</strong> only for 128GB).</li>
+         <li><strong>SD card</strong> port & expandable storage <strong>not available</strong>.<span class="dot red"></span></li>
+      </ul>
+      <hr/>
+      <!--CAMERA SPECS-->
+      <h2>Camera Modules:</h2>
+      <h3>Rear Cameras/Back Cameras:</h3>
+      <ul>
+         <li><strong>Dual</strong> rear camera (back camera) setup.</li>
+         <li>Dual <strong>LED</strong> flash.<span class="dot green"></span></li>
+         <li>No <strong>telephoto</strong> camera<span class="dot red"></span></li>
+         <li>Camera module <strong>big strip bump</strong>, but blends perfectly in design.</li>
+      </ul>
+      <h4>Rear Camera 01 (Primary/Main Camera):</h4>
+      <ul>
+         <li><strong>50</strong><abbr title="Megapixels">mp</abbr> resolution.<span class="dot green"></span></li>
+         <li><strong>8192 x 6144 </strong>image resolution.<span class="dot green"></span></li>
+         <li><strong>Slow</strong> motion <strong>1080p 240fps</strong></li>
+         <li><strong>25mm (wide)</strong> equiv focal length.</li>
+         <li><strong>82°</strong> <abbr title="Field of View">fov</abbr>(field of view).<span class="dot green"></span></li>
+         <li><strong>1/1.31 (9.8 x 7.4 mm)</strong> image sensor size.</li>
+         <li><span title="Octa Pixel Dual Technology uses eight pixels combination to generate better image."><strong>OctaPD</strong></span></li>
+         <li><strong>f/1.68</strong> <span title="Opening of camera, smaller the aperture value bigger the opening & better footage quality in low light settings.">aperture</span>.</li>
+         <li><strong>1.2µm (micron)</strong>(micro-meter) <span title="Physical size of pixel in camera imaging sensor (smaller the size better the resolution, bigger the size better image quality in low light.)">pixel-width.</span></li>
+         <li><strong>8×—</strong> super res <strong>digital </strong>zoom.</li>
+         <li>Approx <strong>21%</strong> more <strong>light-sensitive</strong> camera than Pixel7.<span class="dot green"></span></li>
+         <li><strong>LDAF</strong>(single zone laser detected fast autofocus) sensor.<span class="dot green"></span></li>
+         <li>Dual pixel <strong>PDAF</strong> (phase detection autofocus).</li>
+         <li>
+            <details>
+               <summary><strong>OIS</strong><span class="dot green"></span></summary>
+               <p>
+                  OIS (optical image stabilization)(superior to EIS) is a camera technology in which camera optics & lens physically move opposite to shaky movements of of device to provide stable footage etc.
+               </p>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary><strong>EIS</strong></summary>
+               <p>
+                  EIS (electronic image stabilization) is a camera technology in which camera shakiness is digitally minimized via electronic processing to provide stable footage.
+               </p>
+            </details>
+         </li>
+         <li><strong>Dual Exposure</strong> (Combining two images of different exposures).<span class="dot green"></span></li>
+         <li><strong>4K</strong> recording at 24/30/<strong>60</strong><abbr title="Video Frames Per Second">fps</abbr> super-resolution<span class="dot green"></span></li>
+         <li><strong>1080p</strong> recording at 30/60/120/<strong>240</strong><abbr title="Video Frames Per Second">fps</abbr></li>
+         <li>Capture <strong>HDR+ Images/Videos</strong> (with the help of <strong>TensorG3</strong> & <strong>Google'sDatacenters</strong>)<span class="dot green"></span></li>
+         <li>Camera Sensor: <strong>Samsung ISOCELL GNV (CMOS)</strong> (very likely)<span class="dot green"></span></li>
+      </ul>
+      <h4>Rear Camera 02 (Ultrawide):</h4>
+      <ul>
+         <li><strong>f/2.2</strong> <span title="Opening of camera, smaller the aperture value bigger the opening & better footage quality in low light settings.">aperture</span>.</li>
+         <li><strong>125.8° ultra-wide</strong> <abbr title="Field of View">FOV</abbr>.<span class="dot green"></span></li>
+         <li><strong>12MP </strong>camera resolution.</li>
+         <li>PhaseAF (<strong>Autofocus</strong>) supported (<span title="Autofocus on very tiny or smaller objects, eg. insects, grains, hair.">macro focus</span>).<span class="dot green"></span></li>
+         <li><strong>1.25µm</strong> <span title="Physical size of pixel in camera imaging sensor (smaller the size better the resolution, bigger the size better image quality in low light.)"><strong>pixel-width</strong>.</span></li>
+         <li><strong>Dual Exposure</strong> (Combining two images of different exposures).<span class="dot green"></span></li>
+         <li><strong>12MP</strong> camera resolution.</li>
+         <li><strong>Lense Correction</strong> (compensation of optical imperfections).</li>
+         <li>
+            <span title="Capture broad spectrum that is not visible to human eye to produce better quality through processing & combining image data accross different wavelengths."><strong>Spectral Sensor</strong></span> (capturing details beyond eye
+            can see).
+         </li>
+         <li>
+            <span title="Sensor to detect and analyze light flickering and its frequency from fluorescent, LED and other sources to mitigate issues related to flickering in footage especially in videos."><strong>Flicker Sensor</strong></span> (Better
+            quality in flickering light).
+         </li>
+      </ul>
+      <h3>Front/Selfie Camera(Single Camera):</h3>
+      <ul>
+         <li><strong>DualPD</strong> (two photo diodes for each pixel) technology.<span class="dot green"></span></li>
+         <li><strong>f/2.2</strong> aperture.</li>
+         <li><strong>95° fov</strong> (ultra-wide field of view )</li>
+         <li><strong>1.22µm</strong><span title="Physical size of pixel in camera imaging sensor (smaller the size better the resolution, bigger the size better image quality in low light.)">pixel-width.</span></li>
+         <li><strong>10.5 MP</strong> camera sensor.</li>
+         <li><strong>3648 x 2736</strong> image resolution</li>
+         <li>No Autofocus (<strong>fixed focus</strong>).<span class="dot red"></span></li>
+         <li><strong>4K</strong> video recording @24/30/<strong>60</strong>fps.<span class="dot green"></span><span class="dot green"></span></li>
+      </ul>
+      <h3>All other camera features</h3>
+      <details>
+         <summary><strong>Expand >> </strong>All Other Camera Features</summary>
+         <ul>
+            <li><strong>Magic editor </strong>(AI based editing)</li>
+            <li><strong>Best take </strong>(edit facial expression of anyone in group pic.)<span class="dot green"></span></li>
+            <li><strong>Ultra HDR</strong> (ultra dynamic range than HDR alone)<span class="dot green"></span></li>
+            <li><strong>Magic eraser</strong> (AI based advanced eraser)<span class="dot green"></span></li>
+            <li>Photo <strong>un-blur</strong></li>
+            <li><strong>Locked </strong>photo folder</li>
+            <li><strong>Panorama </strong>capture</li>
+            <li>Audio<strong> magic eraser</strong> (remove any particular sound or noise)<span class="dot green"></span></li>
+            <li><strong>Macro focus</strong> video mode</li>
+            <li><strong>Slow motion</strong> video support <strong>240fps</strong></li>
+            <li><strong>Motion mode</strong> (capture action pan or long exposure photo)</li>
+            <li><strong>Real tone</strong> (accurate skin tone)</li>
+            <li><strong>Face un-blur </strong>mode</li>
+            <li>Manually white balancing</li>
+            <li><strong>Night sight</strong> (Crisp images in low light)<span class="dot green"></span></li>
+            <li><strong>Astrophotography </strong>(low light sky images long exposure & Ai processing)<span class="dot green"></span></li>
+            <li><strong>Top shot</strong> (Take approx 180 photos before after pressing shutter and choose good one)</li>
+            <li><strong>Portrait</strong> mode (Vertical picture mode)</li>
+            <li><strong>Portrait light</strong> (Remove shadows from portrait)</li>
+            <li><strong>Cinematic video blur</strong><span class="dot green"></span></li>
+            <li><strong>Super</strong> resolution<strong> zoom</strong></li>
+            <li><strong>Cinematic pan</strong></li>
+            <li><strong>Motion autofocus</strong> (focus tracking on moving object)<span class="dot green"></span></li>
+            <li><strong>Frequent faces </strong>(Ai save frequent capture faces for better shot recommendations.)</li>
+            <li><strong>Dual exposure controls</strong> for sharper pic in low light (main camera)<span class="dot green"></span></li>
+            <li><strong>Live HDR + </strong>(preview live how hdr image will look after capturing.)<span class="dot green"></span></li>
+            <li><strong>4K timelapse </strong>with <strong>stabilization </strong>turned on<span class="dot green"></span></li>
+            <li><strong>Astrophotography </strong>with<strong> timelapse</strong><span class="dot green"></span></li>
+            <li><strong>Fused</strong> video stabilization (<strong>OIS </strong>+ <strong>EIS</strong>)<span class="dot green"></span></li>
+            <li><strong>4K cinematic pan </strong>stabilization in video<span class="dot green"></span></li>
+            <li><strong>4K </strong>rec with <strong>locked video Stabilization</strong><span class="dot green"></span></li>
+            <li><strong>1080p </strong>rec with <strong>active video stabilization</strong></li>
+            <li><strong>HDR </strong>video with <strong>10-bit</strong></li>
+            <li><strong>Bokeh</strong> mode</li>
+            <li>Supported <strong>video formats</strong>: HEVC (H.265), AVC (H.264)</li>
+         </ul>
+      </details>
+      <hr/>
+      <!--DISPLAY SPECS-->
+      <h2>Display & Screen:</h2>
+      <ul>
+         <li><strong>157 mm </strong>(6.2 inches).</li>
+         <li><strong>~85.5% </strong>screen:body ratio (<strong>~91.1cmÂ²</strong>)</li>
+         <li><strong>20:9</strong> aspect-ratio</li>
+         <li><strong>OLED</strong> panel</li>
+         <li>Advertised with name "<strong>Actua display</strong>"</li>
+         <li>Upto <strong>120Hz</strong> variable refresh rate (<strong>60-120Hz</strong>)<span class="dot green"></span></li>
+         <li><strong>HDR</strong> support display</li>
+         <li>HDR10+<span class="dot green"></span></li>
+         <li><strong>PWM 170Hz </strong>(pulse width modulation technology used for dimming screen)</li>
+         <li><strong>No adaptive </strong>refresh rate</li>
+         <li>Display response time: <strong>3ms</strong></li>
+         <li><strong>1080px—2400px </strong>screen resolution<strong> FHD+ 1080p</strong></li>
+         <li><strong>428</strong><abbr title="Pixels per inch square of screen">ppi (pixels per inch)</abbr><span class="dot green"></span></li>
+         <li>Peak brightness upto <strong>2000 nits</strong> & in <strong>HDR</strong> mode upto <strong>1400 nits</strong><span class="dot green"></span></li>
+         <li><strong>42% </strong>more bright than Pixel7<span class="dot green"></span></li>
+         <li><strong>Corning gorilla® </strong>glass<strong> victus® </strong>protection.<span class="dot green"></span></li>
+         <li><strong>16 million </strong>colors in <strong>24bit </strong>depth</li>
+         <li><strong>1,000,000:1</strong> <span title="whites of screen is 1million times brighter than black on screen.">display contrast ratio</span><span class="dot green"></span></li>
+         <li>Always display on with <strong>at a glance</strong> & <strong>now playing</strong> features.</li>
+         <li><strong>OLED panel</strong> very-likely manufactured by <strong>Samsung Display</strong><span class="dot green"></span></li>
+      </ul>
+      <hr/>
+      <!--BATTERY & CHARGING -->
+      <h2>Battery & Charging:</h2>
+      <ul>
+         <li><strong>Li-Po </strong>typical<strong>4575 mAh</strong> (Minimum: 4485mAh)<span class="dot red"></span></li>
+         <li>Original charger <strong>not included</strong><span class="dot red"></span></li>
+         <li><strong>27W </strong>wired <strong>proprietary fast charging </strong>technology.</li>
+         <li><strong>USB Type-C 3.2</strong></li>
+         <li><strong> 18W Qi-certified wireless </strong>charging<span class="dot green"></span></li>
+         <li><strong>Reverse wireless charging</strong> (<strong>Battery Share</strong>)</li>
+         <li>Upto <strong>72hours </strong>battery-life using extreme<strong> BatterySaver</strong>. (Google's claim)</li>
+         <li>Beyond <strong>24hours</strong> battery life (Google's claim)</li>
+         <li>Active use score: <strong>11:17 hours </strong>(new)</li>
+         <li>
+            <details>
+               <summary>Battery backup<strong>tests </strong>on <strong>full charge</strong>:</summary>
+               <ul>
+                  <li><strong>Web browsing </strong>11hrs:17min</li>
+                  <li><strong>Gaming</strong> 4hrs:07min<span class="dot red"></span></li>
+                  <li><strong>Video watching</strong> 16hrs:55min</li>
+                  <li><strong>Standby idle </strong>82hrs</li>
+               </ul>
+            </details>
+         </li>
+         <li>Full <strong>charging time </strong>1hrs:20min</li>
+         <li>Battery <strong>Endurance</strong> rating: <strong>83 hours </strong>(credit GSMArena)</li>
+         <li><strong>50%</strong> charge in <strong>30 minutes</strong>using "<strong>Google 30W USB C</strong> Charger with <strong>USB-PD 3.0 (PPS)</strong>" (sold separately) (Google's claim)</li>
+         <li>USB C port is <strong>soldered </strong> to the board.<span class="dot red"></span></li>
+      </ul>
+      <hr/>
+      <!--BUILD & PHYSICAL QUALITY-->
+      <h2>Physical & Build-Quality:</h2>
+      <ul>
+          <li><details id="ytDetails"><summary>View <strong>reviews</strong> videos:</summary>
+          <div class="yt" id="yt">video player will load here!</div>
+         
+
+<script defer>
+    var iframeMarkup = `
+            <iframe src="https://www.youtube-nocookie.com/embed/P2wNW5aDmQo?si=MnM1p0PjlBqb_ENp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/cmTDk2R1GMw?si=TXMsZzPs0GK8dEiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/KZA_BIa8e7I?si=azq_PDMYdcN2h-vZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/YzIbLQ0KcPo?si=7QSs8xStI4DTXhYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/8Ilw2NR0Fyc?si=wUqMcho2Zi-DU0uV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        `;
+
+    function loadYouTubePlayer() {  //Replace yt id div with iframes
+   document.getElementById("yt").outerHTML = iframeMarkup;
+    }
+    
+    var detailsExpanded = false; // Function to be called when <details> is expanded for the first time
+    function handleDetailsFirstToggle() {
+        if (!detailsExpanded) {
+            loadYouTubePlayer();
+            detailsExpanded = true; // Set the flag to true after the first expansion
+        }
+    }
+
+    // Adding toggle event listener to <details>
+    document.getElementById("ytDetails").addEventListener("toggle", handleDetailsFirstToggle);
+
+</script>
+</details></li>
+         <li>Device dimensions <strong>5.9x2.8x0.4</strong>inches (<strong>150.5x70.8x8.9</strong> mm) height, width and thickness respectively.</li>
+         <li>Device weight approx <strong>6.60 oz/187 </strong>g</li>
+         <li>Colors available <strong><span style="color: black;">Obsidian (black)</span></strong>, <strong><span style="color: #878783;">Hazel(grayish)</span></strong>, <strong><span style="color: pink;">Rose (pink)</span></strong></li>
+         <li>Front and back glass with <strong>Gorilla </strong>Glass <strong>Victus</strong> protection both side.<span class="dot green"></span></li>
+         <li><strong>Slate</strong> form factor & <strong>smaller/sleak</strong> size than pixel7<span class="dot green"></span></li>
+         <li><strong>IP68</strong> rating with <strong>dust & water-resistant</strong></li>
+         <li><strong>Curvier</strong> & <strong>contoured edges</strong> with <strong>flat</strong> screen.<span class="dot green"></span></li>
+         <li><strong>Satin</strong> lookalike <strong>metal finishes</strong> with <strong>polished glass</strong> back.</li>
+         <li><strong>Anti-fingerprint</strong> coating.<span class="dot green"></span></li>
+         <li><strong>100% </strong>recycled (Claim) <strong>Aluminum</strong> made frame & housing.</li>
+         <li><strong>Google® </strong>claims at least <strong>18% </strong>recycle material used.</li>
+         <li>
+            <details>
+               <summary>Warranty:</summary>
+               <ul>
+                  <li>US, CA, JP, TW, IN, SG:<strong> 1 year</strong><span class="dot red"></span></li>
+                  <li>EU, UK, AU: <strong>2 years</strong></li>
+               </ul>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary>In the Box:</summary>
+               <ul>
+                  <li><strong>1m USB C - USB C </strong>cable (<strong>USB 2.0</strong>)</li>
+                  <li><strong>Quick Switch</strong> adapter</li>
+                  <li><strong>No charger</strong>/charging Adapter<span class="dot red"></span></li>
+               </ul>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary>Device Models:</summary>
+               <ul>
+                  <li><strong>G9BQD</strong> (US & CA)</li>
+                  <li><strong>GKWS6</strong> (US & CA) (mmWave)</li>
+                  <li><strong>GZPFO</strong> (Japan)</li>
+                  <li><strong>GPJ41</strong> (World)</li>
+               </ul>
+            </details>
+         </li>
+      </ul>
+      <hr/>
+      <!--OPERATING SYSTEM-->
+      <h2>OS (Operating System):</h2>
+      <ul>
+         <li><strong>OS size</strong> in internal storage: <strong>14GB</strong></li>
+         <li><strong>Android 14 </strong>(upside down cake) shipped out of the box.<span class="dot green"></span></li>
+         <li><strong>7years</strong> regular OS, security upgrades and feature drops every few months guarantee by Google.<span class="dot green"></span></li>
+         <li>Mainly focused on <strong>software advancements</strong> and better<strong> AI integrations</strong>.<span class="dot green"></span></li>
+         <li><strong>AI Bard</strong> (chat GPT-like) Assistant.<span class="dot green"></span></li>
+         <li><strong>Bloatware free </strong>& near stock android experience except Google's own apps.<span class="dot green"></span></li>
+         <li><strong>AI capabilities</strong> for camera & voice tools.</li>
+         <li>AI model <strong>10×— complex </strong>than Pixel 6 (claim)<span class="dot green"></span></li>
+      </ul>
+      <hr/>
+      <!--AUDIO & SOUND-->
+      <h2>Audio & Sound:</h2>
+      <ul>
+         <li>Total <strong>3 microphones </strong>(up, down & backside near camera)<span class="dot green"></span></li>
+         <li><strong>Stereo </strong>double speakers</li>
+         <li><strong>3.5mm </strong>headphone jack <strong>absent</strong><span class="dot red"></span></li>
+         <li>No <strong>FM </strong>radio</li>
+         <li><strong>No Dolby Atmos </strong>support<span class="dot red"></span></li>
+         <li>Loudspeaker: <strong>-26.0 LUFS </strong>(Loudness Units Full Scale)</li>
+         <li>
+            <details>
+               <summary>Other audio features<strong>>></strong></summary>
+               <ul>
+                  <li><strong>Audio zoom</strong></li>
+                  <li><strong>Speech</strong> enhancement</li>
+                  <li><strong>Spatial audio</strong></li>
+                  <li><strong>Noise suppression</strong><span class="dot green"></span></li>
+                  <li><strong>Wind </strong>noise reduction<span class="dot green"></span></li>
+                  <li><strong>Audio magic eraser</strong><span class="dot green"></span></li>
+                  <li><strong>Stereo</strong> recording<span class="dot green"></span></li>
+                  <li>Will add <strong>lossless audio</strong> over <strong>usb-c </strong>confirmed.<span class="dot green"></span></li>
+               </ul>
+            </details>
+         </li>
+      </ul>
+      <hr/>
+      <!--CONNECTIVITY-->
+      <h2>Connectivity (5G Supported):</h2>
+      <ul>
+         <li>Cellular networks <strong>GSM/EDGE(2G), UMTS/HSPA+(3G), HSDPA, LTE(4G), 5G sub6 (mmWave)</strong></li>
+         <li>
+            <details>
+               <summary><strong>5G </strong>network bands (region & model specific):<span class="dot green"></span></summary>
+               <ul>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>G9BQD</strong>) (<strong>5G-Sub-6GHz</strong>): Bands n1 / 2 / 3 / 5 / 7 / 8 / 12 / 20 / 25 / 26 / 28 / 29 / 30 / 38 / 40 / 41 / 48 / 66 / 70 / 71 / 77 / 78</li>
+                  <li>North America (<strong>US and CA</strong>) (Model<strong> GKWS6</strong>) (<strong>5G-mmWave</strong>+<strong>Sub-6GHz</strong>): (<strong>Sub-6-GHz-Bands</strong>) n1 / 2 / 3 / 5 / 7 / 8 / 12 / 20 / 25 / 26 / 28 / 29 / 30 / 38 / 40 / 41 / 48 / 66 / 70 / 71 / 77 / 78, (<strong>mmWave-Bands</strong>) n258 / 260 / 261<span class="dot green"></span></li>
+                  <li><strong>Japan</strong> (Model <strong>GZPFO</strong>) (<strong>5G-Sub-6GHz</strong>): Bands n1 / 2 / 3 / 5 / 7 / 8 / 12 / 20 / 25 / 28 / 30 / 38 / 40 / 41 / 66 / 71 / 75 / 76 / 77 / 78 / 79</li>
+                  <li><strong>Rest world </strong>(Model <strong>GPJ41</strong>) (<strong>5G-Sub-6GHz</strong>): Bands n1 / 2 / 3 / 5 / 7 / 8 / 12 / 20 / 25 / 26 / 28 / 30 / 38 / 40 / 41 / 66 / 71 / 75 / 76 / 77 / 78 </li>
+               </ul>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary><strong>LTE /4G </strong>bands:</summary>
+               <ul>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>G9BQD</strong>) <strong>LTE</strong>: Bands B1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 17 / 18 / 19 / 20 / 25 / 26 / 28 / 29 / 30 / 38 / 40 / 41 / 46 / 48 / 66 / 71 </li>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>GKWS6</strong>) <strong>LTE</strong>: Bands B1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 17 / 18 / 19 / 20 / 25 / 26 / 28 / 29 / 30 / 38 / 40 / 41 / 46 / 48 / 66 / 71</li>
+                  <li><strong>Japan</strong> (Model <strong>GZPFO</strong>) <strong>LTE</strong>: Bands B1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 17 / 18 / 19 / 20 / 21 / 25 / 26 / 28 / 30 / 32 / 38 / 39 / 40 / 41 / 42 / 46 / 48 / 66 / 71</li>
+                  <li><strong>Rest world </strong>(Model <strong>GPJ41</strong>) <strong>LTE</strong>: Bands B1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 17 / 18 / 19 / 20 / 25 / 26 / 28 / 30 / 32 / 38 / 40 / 41 / 42 / 46 / 48 / 66 / 71</li>
+               </ul>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary><strong>3G </strong>bands:</summary>
+               <ul>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>G9BQD</strong>) <strong>UMTS/HSPA+/HSDPA</strong>: Bands 1, 2, 4, 5, 6, 8, 19</li>
+                  <li>North America (<strong>US and CA</strong>) (Model<strong> GKWS6</strong>)<strong> UMTS/HSPA+/HSDPA</strong>: Bands 1, 2, 4, 5, 6, 8, 19</li>
+                  <li><strong>Japan</strong> (Model <strong>GZPFO</strong>) UMTS/HSPA+/HSDPA: Bands 1, 2, 4, 5, 6, 8, 19</li>
+                  <li><strong>Rest world </strong>(Model <strong>GPJ41</strong>) UMTS/HSPA+/HSDPA: Bands 1, 2, 4, 5, 6, 8, 19</li>
+               </ul>
+            </details>
+         </li>
+         <li>
+            <details>
+               <summary><strong>2G/GSM</strong> bands:</summary>
+               <ul>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>G9BQD</strong>) <strong>GSM/EDGE</strong>: Quad-band (850, 900, 1800, 1900 MHz)</li>
+                  <li>North America (<strong>US and CA</strong>) (Model <strong>GKWS6</strong>) <strong>GSM/EDGE</strong>: Quad-band (850, 900, 1800, 1900 MHz)</li>
+                  <li><strong>Japan </strong>(Model <strong>GZPFO</strong>) <strong>GSM/EDGE</strong>: Quad-band (850, 900, 1800, 1900 MHz)</li>
+                  <li><strong>Rest world</strong> (Model <strong>GPJ41</strong>) <strong>GSM/EDGE</strong>: Quad-band (850, 900, 1800, 1900 MHz)</li>
+               </ul>
+            </details>
+         </li>
+         <li><strong>Dual SIMs</strong> (Single <strong>Nano SIM</strong> and another<strong> eSIM</strong>)</li>
+         <li><strong>Active 4G </strong>on both <strong>SIM</strong> simultaneously<span class="dot green"></span></li>
+         <li><strong>FeliCa </strong>contactless <strong>RFID</strong> (Japan only Model GZPFO)</li>
+         <li>
+            <details>
+               <summary><strong>WiFi</strong> a/b/g/n/ac/6e/7 (Region Specific)<span class="dot green"></span></summary>
+               <ul>
+                  <li><strong>US(PR)</strong>, CA, UK, EU, AU: <strong>WiFi-7  </strong>(802.11be)(peak upto <strong>46 Gbps</strong>) with 2.4GHz, 5GHz, 6GHz, 2x2+2x2 <strong>MIMO</strong><span class="dot green"></span></li>
+                  <li><strong>Japan</strong>: <strong>WiFi-6E</strong> (802.11ax)(peak up to <strong>5.4Gbps</strong>) with 2.4GHz, 5GHz, 6GHz, 2x2+2x2 <strong>MIMO</strong></li>
+                  <li><strong>India</strong>, TW, SG: <strong>WiFi-6 </strong>(802.11ax)(peak upto <strong>1.146Gbps</strong>) with 2.4GHz, 5GHz, <strong>HE160</strong>, and <strong>MIMO</strong></li>
+               </ul>
+            </details>
+         <li>
+            <details>
+               <summary><strong>WiFi</strong> Features:</summary>
+               <ul>
+                  <li><strong>Wi-Fi hotspot:</strong> Internet sharing</li>
+                  <li><strong>Wi-Fi MiMO:</strong> Multiple Input, Multiple Output<span class="dot green"></span></li>
+                  <li><strong>Wi-Fi Display:</strong> Screen mirroring</li>
+                  <li><strong>Wi-Fi Direct:</strong> Device-to-device communication</li>
+               </ul>
+            </details>
+         </li>
+         <li><strong>Bluetooth version5.3</strong> with <strong>dual antennas</strong>. (For better connectivity)<span class="dot green"></span></li>
+         <li><strong>NFC</strong> (Near field communication)<span class="dot green"></span></li>
+         <li><strong>USB TypeC 3.2 </strong>(For wired data transfer)</li>
+         <li><strong>Google Cast</strong> feature</li>
+         <li>
+            <details>
+               <summary><strong>Location </strong>Specs (Region Specific) >></summary>
+               <ul>
+                  <li>Dual Band <strong>GNSS</strong> (<strong>L1</strong> and <strong>L5</strong> frequency bands.)<span class="dot green"></span></li>
+                  <li><strong>India</strong>: <strong>NavIC</strong>, GPS, GLONASS, Galileo, QZSS and BeiDou<span class="dot green"></span></li>
+                  <li><strong>US</strong>: GPS, GLONASS, Galileo, and QZSS.</li>
+                  <li><strong>Rest countries</strong>: GPS, GLONASS, Galileo, QZSS, and BeiDou</li>
+               </ul>
+            </details>
+         </li>
+      </ul>
+      <hr/>
+      <!--SENSORS-->
+      <h2>Sensors:</h2>
+      <ul>
+         <li>Under-display <strong>optical fingerprint</strong> sensor<span class="dot green"></span></li>
+         <li><strong>Accelerometer</strong></li>
+         <li><strong>Gyroscope</strong></li>
+         <li><strong>Proximity </strong>sensor</li>
+         <li>Ambient <strong>Light</strong> Sensor</li>
+         <li><strong>Compass</strong> (Magnetometer)</li>
+         <li><strong>Barometer</strong> (Atmospheric pressure, Altitude & Precise Location)<span class="dot green"></span></li>
+      </ul>
+      <hr/>
+      <!--BENCHMARKS-->
+      <h2>Benchmarks:</h2>
+      <ul>
+         <li><strong>AnTuTu </strong>v10 score: <strong>956043</strong><span class="dot red"></span></li>
+         <li>AnTuTu <strong>rank</strong>: <strong>123</strong>rd (at the time of writing) <a href="https://nanoreview.net/en/phone-list/antutu-rating">AnTuTu-Ratings</a><span class="dot red"></span></li>
+         <li><strong>Geekbench-6 single-core</strong>: <strong>1705</strong>, <strong>multi-core</strong>: <strong>4320</strong>)</li>
+         <li><strong>GFXBench</strong>: <strong>73fps </strong>(<strong>ES 3.1</strong> onscreen)</li>
+      </ul>
+      <hr/>
+      <!--MANUFACTURED IN-->
+      <h2>Manufacturing & Assembling:</h2>
+      <strong> *</strong><small>(Information correct at the time of writing, may change in future.)</small>
+      <ul>
+         <li><strong>India</strong> (soon) (announced) (Likely by Dixon Technologies (Indian) and Foxconn (Taiwanese) <span class="dot green"></span></li>
+         <li><strong>Vietnam</strong> (current)<span class="dot green"></span></li>
+         <li><strong>China</strong> (current)</li>
+      </ul>
+      <hr/>
+      <!--PROS-->
+      <h2>All Other Pros:</h2>
+      <ul>
+         <li><strong>Cameras </strong>are best in class with advanced <strong>Google AI features</strong><span class="dot green"></span></li>
+         <li><strong>Display quality </strong>is excellent and is <strong>very bright.</strong><span class="dot green"></span></li>
+         <li>Small form factor & very <strong>comfortable holding</strong><span class="dot green"></span></li>
+         <li><strong>Adobe RAW</strong> enhances photographic experience, providing richer data for editing<span class="dot green"></span></li>
+         <li><strong>Machine learning (ML)</strong>capabilities can increase performance and photography<span class="dot green"></span></li>
+         <li><strong>USB storage</strong> mode and <strong>OTG</strong> supported<span class="dot green"></span></li>
+      </ul>
+      <hr/>
+      <!--CONS-->
+      <h2>All Other Cons:</h2>
+      <ul>
+         <li><strong>TensorG3 </strong>(9cores) <strong>not performed </strong>well as compared to <strong>Snapdragon8 Gen2 </strong>(8cores)<span class="dot red"></span></li>
+         <li>Potential behavioral & intrusive <strong>Google's tracking </strong>via on-device machine learning capabilities<span class="dot red"></span></li>
+         <li><strong>Battery life </strong>is not best<span class="dot red"></span></li>
+         <li>Device <strong>heat up </strong>under heavy use & load<span class="dot red"></span></li>
+         <li>Considered <strong>expensive</strong> compared to other flagships<span class="dot red"></span></li>
+         <li><strong>UFS4 storage absent</strong><span class="dot red"></span></li>
+         <li><strong>No expandable storage</strong> option (probably to promote Pixel 8 Pro sells)<span class="dot red"></span></li>
+         <li><strong>No pro controls</strong> in the camera app<span class="dot red"></span></li>
+         <li><strong>No infrared </strong>port<span class="dot red"></span></li>
+      </ul>
+      <hr/>
+      
+      <div>
+          <h2>My opinions & Views</h2><div class="reddiv">
+<p>
+Google should give at least <strong>16GB</strong> of<strong> RAM</strong> for the amount of <strong>money</strong> if they really want users to use this device upto<strong> 7years</strong>. Many cheaper devices already giving 8gb RAM and In approx every<strong> 5 years RAM & Storage </strong>demand is doubled even to use basic apps. Android is already a <strong>RAM hungry OS </strong>and <strong>5years </strong>back <strong>1GB</strong> ram was very common but now<strong> 8GB </strong>has become norm. You <strong>can't</strong> easily use majority of apps today on 5years old 1GB ram smartphone.
+</p>
+
+<p>
+    Same goes with <strong>internal storage</strong> as <strong>Android OS </strong>already occupied <strong>14GB</strong> storage & roughly same will be used by user installed apps leaving 2/3 of only space for media, docs, etc. In<strong> 7 years </strong>Android is going to drastically increase in<strong> size </strong>as well as user installed apps bcs of more <strong>AI datasets</strong> and our more dependance on digital devices.
+    </p>
+    
+    <p>Google should have given<strong> UFS4 </strong>storage as it gives twice write speed to get best experience with <strong>5g </strong>and app using
+        </p>
+        <p>It is good that Google is putting steps forward to give the<strong> benefits of AI</strong> in the hands of common people's, but they should atleast work on <strong>zero trust </strong>transparent framework for privacy before providing <strong>AI based services</strong>.</p>
+        <p><strong>Processor</strong> is <strong>not </strong>very impressive and neither it is fabricated on <strong>3nm </strong>lithography as used by iPhone.</p>
+      <p>Specifications are <strong>not upto </strong>the current <strong>market standards</strong> and price except these <strong>extraordinary </strong>work done on <strong>Camera, Display, Artificial Intelligence, Design, User Experience, Quality & Durability</strong></p>
+      <p><strong>Removed</strong> the essential features like <strong>3.5mm jack, SdCard </strong>Port (To force users to buy Pixel 8 Pro)</p>
+      <p>Probably going to be worst in terms of<strong> tracking and privacy</strong>.</p>
+      <p>Google will probably going to direct <strong>Android OS</strong> development to lean towards <strong>close ecosystem </strong>like IOS for its business interests and Android<strong> AOSP</strong> may be ruined in terms of <strong>freedom</strong> that some users find it better than <strong>IOS</strong>.</p>
+      <p>Google should have given<strong> freedom to uninstall </strong>some its own bloated <strong>pre-installed</strong> apps to free up space in scenarios where user don't want to use them or wants to use<strong> alternative</strong>. </p>
+      </div><div class="greendiv">
+      <p>Google made good<strong> improvement</strong> in terms of<strong> camera department</strong> that always feels like<strong> lagging</strong> in Every Android devices than <strong>IOS </strong>counterparts.</p>
+      <p>Google is going to create<strong> healthy competition </strong>and pressure on Samsung, Apple, etc due to monopoly they nearly<strong> stopped innovating </strong>in mobile devices.</p>
+      <p>This device is going to<strong> best choice</strong> if you have <strong>decent budget</strong>, no problem with privacy and want worthy smartphone <strong>for 2.5-3 years</strong> of use.</p>
+      <p><strong>User experience</strong> is going to be best & balanced as you will experience <strong>flexibility of Android OS</strong> and <strong>quality </strong>nearly similar to<strong> iPhone</strong></p>
+      <p>This device is going to open the <strong>sub-premium </strong>space for <strong>Android </strong>ecosystem.</p>
+      <p>Majority of people's <strong>non tech-savvy</strong> are going love this device because of <strong>very convenient</strong> features and <strong>integrated</strong> Google experience with the help of AI.</p>
+      <p>Because of <strong>7years support promise </strong>Google is indirectly/directly<strong> forcing </strong>other manufacturer's to produce<strong> long-term/durable </strong>devices that will be good for environment as well as on consumer pockets.</p>
+      <p><strong>7years </strong>promise is going to<strong> direct Android market </strong>to move towards <strong>quality over quantity</strong> and silicon manufacturer's are also going to invest on machines that will produce <strong>durable hardware </strong>making <strong>quality manufacturing as norm </strong>for long term & permanent.</p>
+      <p><strong>Pixel devices </strong>will be going to overtake or atleast be equal to Apple iPhone in future. This seems Google's long term vision for pixel.</p>
+      <p><strong>Quality </strong>of this device is <strong>superb And clean Google Android </strong>is best for <strong>security </strong>aswell.</p>
+      <p><strong>Best overall phone</strong> in Android market in terms of <strong>balanced approach</strong></p>
+      <p>This device comes from Google so Android users have good overall <strong>non Chinese </strong>based option for their <strong>security</strong> other than samsung.</p>
+      <p>Services are <strong>integrated </strong>in good manner and <strong>smoothly </strong>as majority of work done by Google alone as <strong>centralized progress</strong>.</p>
+      <p><strong>Best </strong>device for <strong>media consumption, content creators & travellers.</strong></p></div>
+</div>
+
+      
+      
+      <div class="section-container">
+         <h2>Conclusion</h2>
+         <p>Phone is <strong>good overall</strong> and Google is trying to capture the <strong>Market of apple iphone </strong>and making Google ecosystem maybe for better data collection & more targeted advertising. They are progressing very fast in capturing <strong>premium mobile </strong>market. If your <strong>priority is camera </strong>than it is good choice and have <strong>unique features </strong>that aren't even present in iPhone.</p>
+      </div>
+      <div class="section-container">
+         <h2>Disclaimer</h2>
+         <p><small>
+            We tried our best to provide you accurate information, but there my be error or human errors so we aren't responsible for any false information in any way. Do your own research before taking any actions. Contact for suggestions/corrections of mistakes: komalsin9h@gmail.com
+            </small>
+         </p>
+      </div>
+      <hr/>
+      <div class="footer">
+         <p><small>&copy; 2023 GurjarTech.in (<strong>Komal Singh</strong>). All rights reserved.</small></p>
+      </div>
+      
+
+
+
+
+   </body>
+</html>

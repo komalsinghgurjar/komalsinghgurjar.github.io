@@ -1,3 +1,5 @@
+
+//ADDING FOOTER
 document.addEventListener('DOMContentLoaded', async function () {
   // Check if a footer element is present in the current DOM
   const footerExists = document.querySelector('footer');
