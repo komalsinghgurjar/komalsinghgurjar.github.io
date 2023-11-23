@@ -1,6 +1,6 @@
-
+//---ASYNC---
 document.addEventListener('DOMContentLoaded', async function () {
-// ADDING GTAG
+//GTAG
 var gtagScript = document.createElement('script'); // Include Google Tag Manager script
 gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-T9FR54RE8L';
 gtagScript.async = true;
@@ -10,14 +10,10 @@ window.dataLayer = window.dataLayer || []; // Your Google Analytics code
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-T9FR54RE8L');
-
-});
-
+//GTAG END
 
 //FOOTER
 
-//ADDING FOOTER
-document.addEventListener('DOMContentLoaded', async function () {
   // Check if a footer element is present in the current DOM
   const footerExists = document.querySelector('footer');
 
@@ -71,11 +67,20 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Add the 'show' class after a short delay to trigger the transition
     setTimeout(async function () {
       document.querySelector('.global-footer').classList.add('show');
-    }, 50); // Adjust the delay (in milliseconds) as needed
+    }, 25); // Adjust the delay (in milliseconds) as needed
   }
+
+//FOOTER END
+
+
+
+
 });
 
 
+
+
+//---SYNC--
 //HEADER
 document.addEventListener('DOMContentLoaded', async function () {
   // Check if a header element is present in the current DOM
@@ -86,7 +91,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const dataLocal = `
       <header class="global-header">
         <a href="https://gurjartech.in/index.html" class="header-link">
-          <img src="https://gurjartech.in/logo.png" class="header-img" alt="LOGO">
+          <img src="https://gurjartech.in/logo.jpg" class="header-img" alt="LOGO">
           <h2 class="header-text">GURJAR TECH</h2>
         </a>
       </header>
@@ -146,6 +151,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Add the 'show' class after a short delay to trigger the transition
     setTimeout(async function () {
       document.querySelector('.global-header').classList.add('show');
-    }, 50); // Adjust the delay (in milliseconds) as needed
+    }, 25); // Adjust the delay (in milliseconds) as needed
   }
 });
+// HEADER END

@@ -15,6 +15,7 @@
       
           
           <meta name="last-modified" content="2023-11-22">
+          
           <!-- Include Global JavaScript, Header, Footer, and CSS Files -->
   <script src="https://gurjartech.in/CONFIG-GLOBAL/global.js"></script>
   <link rel="stylesheet" href="https://gurjartech.in/CONFIG-GLOBAL/global.css">
@@ -22,7 +23,8 @@
           
       <title>Google Pixel 8 - All specifications</title>
       <!-- Google Fonts - Lora for better reading experience -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" async>
+
       <!-- Additional meta tags, stylesheets, or scripts can be included here -->
       <style>
          
