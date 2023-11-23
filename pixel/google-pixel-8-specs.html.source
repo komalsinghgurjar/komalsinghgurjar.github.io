@@ -8,10 +8,6 @@
       <meta name="keywords" content="pixel, google, phone , specifications, pixel 8, pixel 8 specifications, all pixel 8 specifications, pixel 8 details, pixel 8, pixel 8 spec, pixel 8 specs, Google pixel 8 spec, Google pixel 8 specs, Google Pixel phone specifications, Google pixel 8 details, pixel phone 8, Google, pixel 8, Google pixel 8 review, google pixel 8, pixel 8 komal singh, Google pixel 8" />
       <meta name="author" content="Komal Singh" />
       <link rel="canonical" href="https://gurjartech.in/pixel/google-pixel-8-specs.html">
-      <link rel="manifest" href="https://gurjartech.in/manifest.json" />
-      <meta name="HandheldFriendly" content="True">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="mobile-web-app-capable" content="yes">
       
           
           <meta name="last-modified" content="2023-11-22">
@@ -143,6 +139,8 @@ a:visited {
       </style>
    </head>
    <body>
+       
+       <main>
       <h1>Google's Pixel 8 All Specifications</h1>
       
       <hr/>
@@ -658,6 +656,10 @@ Google should give at least <strong>16GB</strong> of<strong> RAM</strong> for th
          </p>
       </div>
       <hr/>
+      
+      </main>
+      
+      
       <div class="footer">
          <p><small>&copy; 2023 GurjarTech.in (<strong>Komal Singh</strong>). All rights reserved.</small></p>
       </div>
