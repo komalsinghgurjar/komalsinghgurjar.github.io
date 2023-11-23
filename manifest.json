@@ -2,7 +2,7 @@
   "name": "Gurjar Tech Home",
   "short_name": "Gurjar Tech",
   "description": "Gurjar Tech Progressive Web App",
-  "start_url": "https://gurjartech.in",
+  "start_url": "https://gurjartech.in/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -10,6 +10,12 @@
     {
       "src": "https://gurjartech.in/android-chrome-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+
+    {
+      "src": "https://gurjartech.in/android-chrome-192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
