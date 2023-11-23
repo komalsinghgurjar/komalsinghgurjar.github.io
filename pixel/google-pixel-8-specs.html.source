@@ -12,7 +12,7 @@
       <meta name="HandheldFriendly" content="True">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="mobile-web-app-capable" content="yes">
-      <meta http-equiv="cleartype" content="on">
+      
           
           <meta name="last-modified" content="2023-11-22">
           <!-- Include Global JavaScript, Header, Footer, and CSS Files -->
@@ -354,7 +354,7 @@ a:visited {
           <div class="yt" id="yt">video player will load here!</div>
          
 
-<script defer>
+<script>
     var iframeMarkup = `
             <iframe src="https://www.youtube-nocookie.com/embed/P2wNW5aDmQo?si=MnM1p0PjlBqb_ENp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe src="https://www.youtube-nocookie.com/embed/cmTDk2R1GMw?si=TXMsZzPs0GK8dEiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
