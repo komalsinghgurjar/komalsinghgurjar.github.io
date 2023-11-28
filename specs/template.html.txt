@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <meta charset="UTF-8" />
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--SEO-->
       <meta name="last-modified" content="2023-11-22">
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
-      <meta name="author" content="Komal Singh" />
+      <meta name="description" content="" >
+      <meta name="keywords" content="" >
+      <meta name="author" content="Komal Singh" >
       <link rel="apple-touch-icon" sizes="180x180" href="https://gurjartech.in/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="https://gurjartech.in/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="https://gurjartech.in/favicon-16x16.png">
@@ -30,16 +30,16 @@
          background-color: #f8f9fa;
          border: 0.1px solid #fff; 
          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-         padding: 3;
+         padding: 3px;
          }
          .padd{
-             padding: 3;
+             padding: 3px;
              }
          .section, details {
          border: 0.1px solid #ced4da; 
          border-radius: 10px;
          background-color: #f8f9fa;
-         padding: 7;
+         padding: 7px;
         
          }
          * {
@@ -62,6 +62,23 @@
         background-color: #fffdfa; 
     }
       </style>
+      <!--navbar css-->
+      <style>
+          .navbar-nav .nav-item:hover {
+   font-weight: bold;
+  /*background-color: #e9ecef;*/
+}
+
+
+          </style>
+          
+          <!--carousel css-->
+          <style>
+          .carousel-caption,
+.carousel-caption h5 {
+    color: #fafafa;
+    }
+</style>
    </head>
    <body>
        
@@ -119,14 +136,7 @@
             </div>
          </div>
       </nav>
-      <style>
-          .navbar-nav .nav-item:hover {
-   font-weight: bold;
-  /*background-color: #e9ecef;*/
-}
-
-
-          </style>
+      
       <script>
          function searchGoogle() {
            var query = document.querySelector('input').value.trim();
@@ -175,7 +185,7 @@
          <!--Introduction end-->
              <!--carousel start-->
                 
-         <div id="carouselExampleDark" class="light-section my-5 carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+         <div id="carouselExampleDark" class="light-section my-5 carousel carousel-light slide" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -214,6 +224,7 @@
             </button>
             
          </div>
+         
          <!--carousel end-->
          <!--specification start-->
          
@@ -222,11 +233,15 @@
          <section class="container-fluid my-5 table-responsive">
             <h3 class="display-6 mx-2 my-2">CHIPSET</h3>
             <table class="table table-bordered table-striped">
-               <caption class="table-caption">SoC</caption>
+               <caption class="table-caption"></caption>
    
                <tbody>
                   <tr>
-                     <th scope="row">Fabricated by</th>
+                     <th scope="row">Manufactured by</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">Chipset Name</th>
                      <td></td>
                   </tr>
                   <tr>
@@ -444,7 +459,7 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <th scope="row">PWM <br/>(Pulse Width Modulation)</th>
+                     <th scope="row">PWM <br>(Pulse Width Modulation)</th>
                      <td></td>
                   </tr>
                   <tr>
@@ -557,7 +572,7 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <th scope="row">Pixel-width OR<br/>Pixel physical size</th>
+                     <th scope="row">Pixel-width OR<br>Pixel physical size</th>
                      <td></td>
                   </tr>
                   
@@ -1080,7 +1095,7 @@
         <h4 class="alert-heading">Extra Technical Info</h4>
         <p>Expand below to see relevant details like supported network bands, in-depth technical specs (region-specific).</p>
         <hr>
-        <p class="mb-0">
+        
 <details>
    <summary>5G Bands >></summary>
    <table class="table table-bordered table-striped">
@@ -1112,10 +1127,10 @@
       </tr>
    </table>
 </details>
-</p>
 
 
-        <p class="mb-0">
+
+        
             <details>
    <summary>4G/LTE Bands >></summary>
  <table class="table table-bordered table-striped">
@@ -1142,9 +1157,9 @@
     </tr>
 </table>
 </details>
-            </p>
             
-        <p class="mb-0">
+            
+        
             <details>
     <summary>3G Bands >></summary>
     <table class="table table-bordered table-striped">
@@ -1172,10 +1187,10 @@
     </table>
 </details>
 
-            </p>
+           
             
             
-        <p class="mb-0">
+        
             <details>
     <summary>2G Bands >></summary>
     <table class="table table-bordered table-striped">
@@ -1203,10 +1218,10 @@
     </table>
 </details>
 
-            </p>
+           
             
             
-        <p class="mb-0">
+        
             <details>
     <summary>Wi-Fi Details >></summary>
     <table class="table table-bordered table-striped">
@@ -1231,7 +1246,7 @@
 </details>
 
 
-            </p>
+            
             <details>
     <summary>Navigation >></summary>
     <table class="table table-bordered table-striped">
@@ -1255,9 +1270,9 @@
     </table>
 </details>
 
-            <p class="mb-0">
             
-            </p>
+            
+          
     </div>
 </div>
 
@@ -1351,7 +1366,7 @@
              </main>
          <!--bootstrap-->
          <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
-      <script defer>/*
+      <script>/*
   document.addEventListener('DOMContentLoaded', function () {
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
