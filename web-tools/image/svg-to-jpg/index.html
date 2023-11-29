@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert SVG to JPG</title>
+    <meta name="description" content="Convert SVG images to JPEG/JPG format. Upload your SVG file & then click 'Convert to JPEG'. Your converted image will be downloaded in desired resolution.">
+    <meta name="keywords" content="SVG to JPEG, svg to jpg, convert svg to jpg, svg to jpg converter, svg to jpg tool">
+    <link rel="canonical" href="https://gurjartech.in/web-tools/image/svg-to-jpg/">
+    <!-- Global -->
+    <script src="https://gurjartech.in/global.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        #preview {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <br><hr>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">SVG to JPG</h1>
+
+        <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="fileInput" accept=".svg" onchange="updateFileName()">
+            <label class="custom-file-label" for="fileInput" id="fileNameLabel">Choose SVG (.svg) file</label>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputWidth">Width (px):</label>
+                <input type="number" class="form-control" id="inputWidth" placeholder="Enter width">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputHeight">Height (px):</label>
+                <input type="number" class="form-control" id="inputHeight" placeholder="Enter height">
+            </div>
+        </div>
+
+        <button class="btn btn-primary btn-block mb-3" onclick="convertImage()">Convert to JPEG</button>
+        <br><hr>
+
+        <div class="text-center">
+            <img id="preview" class="img-fluid" alt="Preview">
+        </div>
+        <div class="mt-4 container-fluid alert alert-info">
+            <h2>Introduction</h2>
+            <p>
+                This is the online tool that will allow you to convert your SVG images to JPEG/JPG format in any resolution effortlessly.
+                Upload your SVG file above, and then press the "Convert to JPEG" button, and your high-quality image will be downloaded automatically.
+                SVG is vector image format and you can convert it to any highest resolution possible and quality didn't deteriorated bcz data is in paths rather than pixels.
+            </p>
+        </div>
+        <div class="mt-4 alert alert-success">
+
+            <h3>How to use the SVG to JPG Converter:</h3>
+            <ol>
+                <li>Click on the "Choose SVG file" button & select your SVG image.</li>
+                <li>Enter the desired width and height in pixels for the output image.</li>
+                <li>Press the "Convert to JPEG" button to initiate the conversion process locally in the browser.</li>
+                <li>Your converted image will be downloaded automatically once rendering completed.</li>
+            </ol>
+
+            <p>Feel free to use this tool for your image conversion needs. If you encounter any issues, have feature requests, or suggestions for improvement, please let me know at komalsin9h@gmail.com.</p>
+        </div>
+
+        <script>
+            function updateFileName() {
+                const fileInput = document.getElementById("fileInput");
+                const fileNameLabel = document.getElementById("fileNameLabel");
+                fileNameLabel.innerText = fileInput.files[0].name;
+            }
+
+            function convertImage() {
+                const fileInput = document.getElementById("fileInput");
+                const preview = document.getElementById("preview");
+                const file = fileInput.files[0];
+                const reader = new FileReader();
+
+                reader.onloadend = function () {
+                    const svgString = reader.result;
+                    const blob = new Blob([svgString], { type: 'image/svg+xml' });
+
+                    const img = new Image();
+                    img.src = URL.createObjectURL(blob);
+
+                    img.onload = function () {
+                        const canvas = document.createElement("canvas");
+                        const inputWidth = document.getElementById("inputWidth").value || img.width;
+                        const inputHeight = document.getElementById("inputHeight").value || img.height;
+
+                        canvas.width = inputWidth;
+                        canvas.height = inputHeight;
+
+                        const ctx = canvas.getContext("2d");
+                        ctx.drawImage(img, 0, 0, inputWidth, inputHeight);
+
+                        canvas.toBlob(function (blob) {
+                            const newImg = document.createElement("img");
+                            const url = URL.createObjectURL(blob);
+                            newImg.src = url;
+                            preview.src = url;
+                            preview.style.display = "block";
+
+                            const a = document.createElement("a");
+                            a.href = url;
+                            a.download = "converted_image.jpg";
+                            a.style.display = "none";
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                        }, "image/jpeg", 1);
+                    };
+                };
+
+                if (file) {
+                    reader.readAsText(file);
+                } else {
+                    alert("Please select an SVG file before converting.");
+                }
+            }
+        </script>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert PNG to JPG/JPEG</title>
+  <meta name="description" content="Convert PNG images to JPEG/JPG format with minimal image quality loss. Upload your PNG file & then click 'Convert to JPEG'. Your converted image will be downloaded in fast and user-friendly way.">
+  <meta name="keywords" content="PNG to JPEG, png to jpg, png to jpeg, losseless png to jpg, convert png to jpg, png to jpg original quality, png to jpg no quality loss, png to jpg converter, png to jpg tool">
+ <link rel="canonical" href="https://gurjartech.in/web-tools/image/png-to-jpg/">
+      <!--Global-->
+      <script src="https://gurjartech.in/global.js"></script>
+      
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      max-width: 600px;
+    }
+
+    #preview {
+      display: none;
+    }
+  </style>
+</head>
+<body><br><hr>
+    
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">PNG to JPG</h1>
+
+    <div class="custom-file mb-3">
+      <input type="file" class="custom-file-input" id="fileInput" accept=".png" onchange="updateFileName()">
+      <label class="custom-file-label" for="fileInput" id="fileNameLabel">Choose PNG (.png) file</label>
+    </div>
+
+    <button class="btn btn-primary btn-block mb-3" onclick="convertImage()">Convert to JPEG</button>
+<br><hr>
+ 
+    <div class="text-center">
+      <img id="preview" class="img-fluid" alt="Preview">
+    </div>
+<div class="mt-4 container-fluid alert alert-info">
+        <h2>Introduction</h2>
+        <p>
+      This simple online tool will allows you to convert your PNG images to JPEG/JPG format effortlessly and without loosing quality. 
+      Upload your PNG file above, and then press the "Convert to JPEG" button, and your high quality image will be download.
+      PNG is lossless format but jpg is lossy format so some quality is going to destroyed anyway to convert from .png to .jpg by using any means, but this tool designed to minimize the loss at much as possible.
+    </p>
+        
+        </div>
+    <div class="mt-4 alert alert-success">
+        
+      <h3>How to use the PNG to JPG Converter:</h3>
+      <ol>
+        <li>Click on the "Choose PNG file" button & select your PNG image.</li>
+        <li>Press on the "Convert to JPEG" button to initiate the conversion process locally on browser.</li>
+        <li>Your converted image will be downloaded automatically once completed.</li>
+      </ol>
+
+      <p>Feel free to use this tool for your image conversion needs. If you encounter any issues, features request or have suggestions for improvement, please let me know komalsin9h@gmail.com.</p>
+    </div>
+
+    <script>
+      function updateFileName() {
+        const fileInput = document.getElementById("fileInput");
+        const fileNameLabel = document.getElementById("fileNameLabel");
+        fileNameLabel.innerText = fileInput.files[0].name;
+      }
+
+      function convertImage() {
+        const fileInput = document.getElementById("fileInput");
+        const preview = document.getElementById("preview");
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onloadend = function () {
+          const base64data = reader.result;
+          const img = new Image();
+          img.src = base64data;
+
+          img.onload = function () {
+            const canvas = document.createElement("canvas");
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext("2d");
+            ctx.drawImage(img, 0, 0);
+
+            canvas.toBlob(function (blob) {
+              const newImg = document.createElement("img");
+              const url = URL.createObjectURL(blob);
+              newImg.src = url;
+              preview.src = url;
+              preview.style.display = "block";
+
+              const a = document.createElement("a");
+              a.href = url;
+              a.download = "converted_image.jpg";
+              a.style.display = "none";
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+            }, "image/jpeg", 1);
+          };
+        };
+
+        if (file) {
+          reader.readAsDataURL(file);
+        } else {
+          alert("Please select a file before converting.");
+        }
+      }
+    </script>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
