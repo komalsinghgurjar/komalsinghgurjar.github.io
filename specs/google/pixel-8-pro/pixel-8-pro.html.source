@@ -112,7 +112,7 @@
                         <img src="https://www.vectorlogo.zone/logos/bing/bing-icon.svg" alt="Bing" height="39" width="39" loading="lazy">
                         </button>
                         <button class="light-section btn rounded-circle mx-1 py-0 px-0" type="button" onclick="searchDuckDuckGo()">
-                        <img src="https://www.vectorlogo.zone/logos/duckduckgo/duckduckgo-icon.svg" alt="DuckDuckGo" height="39" width="39" loading="lazy">
+                        <img src="https://www.vectorlogo.zone/logos/duckduckgo/duckduckgo-icon.svg" alt="Duck Duck Go" height="39" width="39" loading="lazy">
                         </button>
                      </form>
                   </li>
@@ -514,7 +514,7 @@
   <ul class="list-group">
      <li class="list-group-item">TitanM2 coprocessor</li>
     <li class="list-group-item">TrustZone - TrustyOS (Trusted Execution Environment)</li>
-    <li class="list-group-item">Tensor Security Core have physically seperated CPU, ROM, OTP memory, crypto engine, SRAM and DRAM</li>
+    <li class="list-group-item">Tensor Security Core have physically separated CPU, ROM, OTP memory, crypto engine, SRAM and DRAM</li>
     <li class="list-group-item">VPN vis Google One</li>
     
     <li class="list-group-item">7yrs security updates</li>
@@ -1592,12 +1592,12 @@
          <div class="container-fluid my-5">
             <h2 class="text-center display-2">Conclusion</h2>
             <p>Best option in Android till now. But still not replacement for iPhone. If budget allows definitely Go for this device.</p>
-<p>Google is an itself advertisement gaint. Majority of their services & buisness models relies on monetizing users data. AI integration means more complexity & dullness in transparency to privacy. AI and ML can be sophisticated tools for creepy and multidimensional tracking as well as behavioral analysis. </p>
+<p>Google is an itself advertisement gaint. Majority of their services & business models relies on monetizing users data. AI integration means more complexity & dullness in transparency to privacy. AI and ML can be sophisticated tools for creepy and multidimensional tracking as well as behavioral analysis. </p>
 <p>Initially Google developed AI for its already collected data to analyze & find patterns in big datasets, but now they seems to implementing it on every physical device. On-device AI & ML nased tracking will be so precise that it can easily be used to accurately predict the economics, markets, sentiments, ideas, beliefs and also can bleed out confidential info from key peoples of gov, companies, org, etc. </p>
 <p>Originally Google's have limited & constrained data collection in traditional tracking methods. In traditional tracking evidence can be easily reproduced but putting AI on device can be better for company's interest. </p>
 <p> Currently Company is capable to collect sensors data, image, video, conversations, browsing, movements, location, ideas, interests, financial, behavioural data if wanted. It is not very wise to surrender everything in few hands.</p>
 <p>Features wise this device is great, privacy wise like IOS, quality wise good, price wise expensive.</p>
-<p>Price should be cheaper as to be value for money. Google needs to avoid discriminatory features launch accross countries.</p>
+<p>Price should be cheaper as to be value for money. Google needs to avoid discriminatory features launch across countries.</p>
          </div>
          <!--Conclusion end-->
              </main>
