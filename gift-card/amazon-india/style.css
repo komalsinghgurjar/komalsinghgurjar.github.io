@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  padding: 20px;
+  
 }
 
 h1 {
@@ -81,6 +81,17 @@ button:hover {
   color: #aa0000;
 }
 
-
+/*navbar*/
+          .navbar-nav .nav-item:hover {
+   font-weight: bold;
+  
+}
+.material {
+         border-radius: 0px;
+         border: 0.1px solid #fff; 
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+         }
+         
+         
 
 
