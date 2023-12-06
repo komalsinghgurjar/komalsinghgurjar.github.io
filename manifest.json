@@ -5,7 +5,7 @@
   "start_url": "https://gurjartech.in/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#eee",
   "icons": [
     {
       "src": "https://gurjartech.in/android-chrome-512x512.png",
