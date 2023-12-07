@@ -36,11 +36,7 @@
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://gurjartech.in/web-tools/</loc>
-  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://gurjartech.in/gift-card/amazon-india/</loc>
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
@@ -51,11 +47,7 @@
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://gurjartech.in/web-tools/image/</loc>
-  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://gurjartech.in/specs/google/pixel-8/</loc>
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
@@ -66,7 +58,29 @@
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
+
+
+<!--Tutorial-->
+    <url>
+  <loc>https://gurjartech.in/tutorial/divert-calls-in-jio/</loc>
+  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
+  <priority>1</priority>
+</url>
+
+<!--WebTools-->
+    <url>
+  <loc>https://gurjartech.in/web-tools/</loc>
+  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+    <url>
+  <loc>https://gurjartech.in/web-tools/image/</loc>
+  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+    <url>
   <loc>https://gurjartech.in/web-tools/image/png-to-jpg/</loc>
   <lastmod>2023-12-04T18:49:58+00:00</lastmod>
   <priority>0.51</priority>
@@ -87,10 +101,66 @@
   <priority>0.51</priority>
 </url>
 
-<!--Tutorial-->
-    <url>
-  <loc>https://gurjartech.in/tutorial/divert-calls-in-jio/</loc>
-  <lastmod>2023-12-04T18:49:58+00:00</lastmod>
-  <priority>1</priority>
+
+<url>
+    <loc>https://gurjartech.in/web-tools/urlQr/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/upiQr/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/cube-root-calculator/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/square-root-calculator/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://gurjartech.in/web-tools/password-generator/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/Age-Calculator/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/pdf-reader/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
+<url>
+    <loc>https://gurjartech.in/web-tools/text-editor/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://gurjartech.in/web-tools/url-opener/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+</url>
+
+
 </urlset>

