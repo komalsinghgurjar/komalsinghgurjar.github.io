@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Komal Singh Enterprises - Software development, publishing, web development and IT services.">
+
+    <meta name="author"
+          content="Komal Singh Enterprises">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <link rel="canonical"
+          href="https://kingshabh.com/">
+
+    <title>Komal Singh Enterprises | Software & IT Services</title>
+
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #0f172a;
+            --muted: #64748b;
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --border: #e2e8f0;
+            --max-width: 1100px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            width: min(92%, var(--max-width));
+            margin: auto;
+        }
+
+        /* Header */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav {
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .brand {
+            font-size: 1.2rem;
+            font-weight: 750;
+            letter-spacing: -0.02em;
+        }
+
+        .brand span {
+            color: var(--primary);
+        }
+
+        nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        nav a {
+            color: #475569;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        /* Hero */
+
+        .hero {
+            padding: 110px 0 100px;
+            background:
+                linear-gradient(
+                    180deg,
+                    #ffffff 0%,
+                    #f8fafc 100%
+                );
+        }
+
+        .hero-content {
+            max-width: 780px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 7px 13px;
+            border: 1px solid #bfdbfe;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: var(--primary-dark);
+            font-size: 0.85rem;
+            font-weight: 650;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 7vw, 4.7rem);
+            line-height: 1.05;
+            letter-spacing: -0.055em;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            max-width: 680px;
+            color: var(--muted);
+            font-size: 1.15rem;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 0 20px;
+            border-radius: 9px;
+            font-weight: 650;
+            transition:
+                transform 0.15s ease,
+                background 0.15s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-1px);
+        }
+
+        .button-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .button-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .button-secondary {
+            border: 1px solid var(--border);
+            background: white;
+            color: var(--text);
+        }
+
+        /* Sections */
+
+        section {
+            padding: 85px 0;
+        }
+
+        .section-heading {
+            max-width: 700px;
+            margin-bottom: 42px;
+        }
+
+        .section-heading h2 {
+            font-size: 2rem;
+            letter-spacing: -0.035em;
+            margin-bottom: 12px;
+        }
+
+        .section-heading p {
+            color: var(--muted);
+        }
+
+        /* About */
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .about-text p + p {
+            margin-top: 16px;
+        }
+
+        .business-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+        }
+
+        .business-card h3 {
+            margin-bottom: 20px;
+            font-size: 1.15rem;
+        }
+
+        .business-detail {
+            padding: 13px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .business-detail:last-child {
+            border-bottom: none;
+        }
+
+        .business-detail strong {
+            display: block;
+            font-size: 0.83rem;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 3px;
+        }
+
+        /* Services */
+
+        .services {
+            background: white;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(3, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            padding: 28px;
+            border: 1px solid var(--border);
+            border-radius: 15px;
+            background: var(--surface);
+        }
+
+        .service-number {
+            color: var(--primary);
+            font-weight: 750;
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+        }
+
+        .service h3 {
+            margin-bottom: 9px;
+            font-size: 1.15rem;
+        }
+
+        .service p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        /* Apps */
+
+        .apps-box {
+            padding: 38px;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            background: white;
+        }
+
+        .apps-box p {
+            max-width: 760px;
+            color: var(--muted);
+        }
+
+        /* Contact */
+
+        .contact {
+            background: white;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .contact-card {
+            padding: 30px;
+            border: 1px solid var(--border);
+            border-radius: 15px;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact-card p {
+            color: var(--muted);
+        }
+
+        .contact-card a {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Footer */
+
+        footer {
+            padding: 35px 0;
+            border-top: 1px solid var(--border);
+            background: #f8fafc;
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 18px;
+            font-size: 0.9rem;
+            color: #475569;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Mobile */
+
+        @media (max-width: 800px) {
+            nav {
+                display: none;
+            }
+
+            .hero {
+                padding: 80px 0 70px;
+            }
+
+            section {
+                padding: 65px 0;
+            }
+
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+
+        <a class="brand" href="#home">
+            Komal Singh <span>Enterprises</span>
+        </a>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#apps">Applications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    Technology & IT Services
+                </span>
+
+                <h1>
+                    Building useful software
+                    and digital solutions.
+                </h1>
+
+                <p>
+                    Komal Singh Enterprises is an independent
+                    technology business engaged in software
+                    development, software publishing, web
+                    development and related IT services.
+                </p>
+
+                <div class="buttons">
+
+                    <a
+                        class="button button-primary"
+                        href="#contact">
+                        Contact Us
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="#services">
+                        Our Services
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>About the business</h2>
+
+                <p>
+                    Technology-focused software and IT services
+                    for individuals, organizations and digital
+                    platforms.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p>
+                        <strong>Komal Singh Enterprises</strong>
+                        is a sole proprietorship engaged in
+                        software publishing, computer programming,
+                        web development and information technology
+                        services.
+                    </p>
+
+                    <p>
+                        The business develops and publishes
+                        software applications and digital products
+                        designed to provide practical solutions
+                        for users.
+                    </p>
+
+                    <p>
+                        We focus on building reliable, accessible
+                        and useful technology products while
+                        continuously improving our software and
+                        digital services.
+                    </p>
+
+                </div>
+
+
+                <div class="business-card">
+
+                    <h3>Business Information</h3>
+
+                    <div class="business-detail">
+                        <strong>Business Name</strong>
+                        Komal Singh Enterprises
+                    </div>
+
+                    <div class="business-detail">
+                        <strong>Business Type</strong>
+                        Sole Proprietorship
+                    </div>
+
+                    <div class="business-detail">
+                        <strong>Industry</strong>
+                        Software & Information Technology
+                    </div>
+
+                    <div class="business-detail">
+                        <strong>Website</strong>
+                        kingshabh.com
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+
+    <section
+        class="services"
+        id="services">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Services</h2>
+
+                <p>
+                    Our technology activities cover software
+                    development and a range of related digital
+                    services.
+                </p>
+
+            </div>
+
+
+            <div class="service-grid">
+
+                <article class="service">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+                    <h3>Software Development</h3>
+
+                    <p>
+                        Development of software applications
+                        and digital tools for Android and other
+                        platforms.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+                    <h3>Software Publishing</h3>
+
+                    <p>
+                        Development, publication and maintenance
+                        of software products and applications.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Development and maintenance of websites
+                        and web-based digital solutions.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        04
+                    </div>
+
+                    <h3>IT Services</h3>
+
+                    <p>
+                        Technology and information services
+                        supporting digital products and
+                        software operations.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        05
+                    </div>
+
+                    <h3>Web Hosting</h3>
+
+                    <p>
+                        Deployment and hosting of websites and
+                        software-related web services.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        06
+                    </div>
+
+                    <h3>Digital Products</h3>
+
+                    <p>
+                        Creation and maintenance of practical
+                        digital products and technology solutions.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Applications -->
+
+    <section id="apps">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Applications & Products</h2>
+
+                <p>
+                    Software products developed and published
+                    by Komal Singh Enterprises.
+                </p>
+
+            </div>
+
+
+            <div class="apps-box">
+
+                <h3>Our software products</h3>
+
+                <p>
+                    Komal Singh Enterprises develops and publishes
+                    software applications for users through
+                    digital distribution platforms, including
+                    Google Play.
+                </p>
+
+                <div class="buttons">
+
+                    <!-- Replace with your actual Play Store
+                         developer/app URL if desired -->
+
+                    <a
+                        class="button button-primary"
+                        href="https://play.google.com/store/apps/dev?id=4933235424849232555"
+                        target="_blank"
+                        rel="noopener">
+                        Google Play
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section
+        class="contact"
+        id="contact">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Contact</h2>
+
+                <p>
+                    For business, software or technology
+                    enquiries, please contact us.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+
+                    <h3>Email</h3>
+
+                    <!-- CHANGE THIS -->
+
+                    <p>
+                        <a href="mailto:komalsin9h@gmail.com">
+                            komalsin9h@gmail.com
+                        </a>
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h3>Business</h3>
+
+                    <p>
+                        Komal Singh Enterprises
+                    </p>
+
+                    
+
+                    <p>
+      Address :  Komal Singh Residence, Sikri Buzarg Road, Sikri Buzarg, Nadigaon Block, Jalaun, Uttar Pradesh
+      Pincode :	285205
+      Country :	India
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <div class="footer-text">
+            © 2026 Komal Singh Enterprises.
+            All rights reserved.
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
